@@ -11,7 +11,7 @@ export default function LandingPage(){
             {/* nav */}
             <div className="w-full  h-[5vh] md:px-20 px-5 flex bg-white flex-row justify-end gap-10 items-center">
                 <Link to='data'><h2 className="hover:text-blue-200">DATA</h2></Link>
-                <h2>NON DATA</h2>
+                <Link to='nondata'><h2 className="hover:text-blue-200">NON DATA</h2></Link>
             </div>
             <div className="w-full min-h-[80vh] bg-white ml-2 mr-2">
                 <Outlet/>
