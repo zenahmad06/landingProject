@@ -1,5 +1,5 @@
 import CardItem from "../components/CardItem"
-import { project_question,project_statisti,project_eda } from "../Data/kumpul"
+import { project_question,project_statistik,project_eda } from "../Data/kumpul"
 export default function DataPage(){
     return(
         <>
