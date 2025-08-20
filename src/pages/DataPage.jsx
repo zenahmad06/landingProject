@@ -1,5 +1,5 @@
 import CardItem from "../components/CardItem"
-import { project_question,project_statistik,project_eda } from "../Data/kumpul"
+import { project_question,project_statistik,project_eda,project_dataengineer1 } from "../Data/kumpul"
 export default function DataPage(){
     return(
         <>
@@ -7,6 +7,7 @@ export default function DataPage(){
             <CardItem data={project_question}/>
             <CardItem data={project_statistik}/>
             <CardItem data={project_eda}/>
+            <CardItem data={project_dataengineer1}/>
 
 
         </div>
