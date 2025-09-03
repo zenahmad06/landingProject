@@ -1,5 +1,5 @@
 import CardItem from "../components/CardItem"
-import { materiTodo, materiFilter,Crud,CrudBackend,paginationBackend } from "../Data/materi-todo"
+import { materiTodo, materiFilter,Crud,CrudBackend,paginationBackend,authlogin,webappoltp } from "../Data/materi-todo"
 export default function DataPage(){
     return(
         <>
@@ -9,6 +9,8 @@ export default function DataPage(){
             <CardItem data={Crud}/>
             <CardItem data={CrudBackend}/>
             <CardItem data={paginationBackend}/>
+            <CardItem data={authlogin}/>
+            <CardItem data={webappoltp}/>
 
 
 

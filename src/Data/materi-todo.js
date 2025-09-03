@@ -32,3 +32,16 @@ export const paginationBackend ={
     link2:"https://github.com/zenahmad06/all-project/tree/main/pagination",
     link1:"https://zenahmad06.github.io/blog/search-pagination-notes/"
 }
+export const authlogin ={
+    title:"Using PostgreSQL and cookies for login authehntication ",
+    deskripsi:"In this project i use postgresql for database in login section",
+    link2:"https://github.com/zenahmad06/auth-login-postgre",
+    link1:"https://medium.com/@zenahmad06/handle-login-and-register-cookie-based-30067e3d9ffb"
+}
+
+export const webappoltp ={
+    title:"Web APP and database OLTP",
+    deskripsi:"In this project i make a webapp and implement ACID OLTP Database for manage the data",
+    link2:"https://github.com/zenahmad06/WEBAPP-OLTP-DATABASE",
+    link1:"https://medium.com/@zenahmad06/web-app-oltp-fa82a12af687"
+}

@@ -5,7 +5,9 @@ export default function LandingPage(){
         <>
         {/* sidebar */}
         <div className="  w-[30%] md:w-[25%] flex flex-col items-center  py-5 h-screen fixed l-0 t-0 border border-black shadow-xl">
-
+            <div className="md:h-48 md:w-48 h-24 w-24 rounded-full border"></div>
+            <h1 className="md:text-xl text-lg mt-2">Zaini Ahmad</h1>
+            <p className="mx-[5%] mt-5 text-center">Welcome to my portofolio, you can check my portofolio related to data (data analysis, machine learning,etc) and Non-data (frontend and backend)</p>
         </div>
         <div className="md:(max-w-[80%] ml-[25%]) max-w-[70%] ml-[30%] bg-red-100 min-h-screen flex flex-col items-center gap-2">
             {/* nav */}
