@@ -1,3 +1,5 @@
 export {default as Mall} from './Mall.jpeg'
 export {default as RCS} from './rcs.jpg'
 export {default as GOV} from './GOV.png'
+export {default as LOG} from './logins.jpg'
+export {default as CUP} from './cup.webp'
