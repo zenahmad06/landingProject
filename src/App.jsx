@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
-import { Mall,RCS,GOV,LOG,CUP } from './assets'
+import { Mall,RCS,GOV,LOG,CUP,PLAN } from './assets'
 
 export default function App() {
   return (
@@ -64,7 +64,25 @@ export default function App() {
             </div>
           
         </div>
+        <div className=' flex h-auto  ml-2 mr-2  md:( bg-white  h-auto w-[22%] rounded-xl mt-2  )' >
+            <div className="min-w-120px  rounded-xl  bg-cover  bg-center md:( w-180px ) " style={{backgroundImage:`url(${PLAN})`}}></div>
+            <div className='flex flex-col pb-2 px-2 border-b-2 py-auto md:( justify-center items-center border-b-0 )'>
+              <h2 className='md:text-[#030c17] text-white  font-bold '>Planning todo App</h2>
+              <p className='text-[9pt] text-red-200'>   In this project, we make todo app using React and Tailwind </p>
+              <h5 className='md:text-[#030c17] text-white text-0.75em mt-2 flex-start '>App : <a href=' https://plannin.netlify.app/' className='hover:text-yellow-200'>Click here</a></h5>
+              <h5 className='md:text-[#030c17] text-white text-0.75em mt-2 '>Article : <a href='https://medium.com/@zenahmad06/todoapp-project-e7097ae2f81d' className='hover:text-yellow-200'>Click here</a></h5>
+              <h5 className='md:text-[#030c17] text-white text-0.75em mt-2 flex-start '>Documentation : <a href=' https://github.com/zenahmad06/planning' className='hover:text-yellow-200'>Click here</a></h5>
+
+            </div>
+          
+        </div>
         
+        
+        
+        
+        
+        
+       
         
         
         
